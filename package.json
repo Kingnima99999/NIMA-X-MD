@@ -1,0 +1,30 @@
+{
+  "name": "NIMA-XMD",
+  "version": "1.0.0",
+  "description": "A WhatsApp Bot Created By NIMNA DULSHAN",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js --deep-monitoring --attach --name NIMA-XMD",
+    "stop": "pm2 stop NIMA-XMD",
+    "restart": "pm2 restart NIMA-XMD"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.6.0",
+    "@adiwajshing/keyed-db": "latest",
+    "pino": "latest",
+    "pm2": "^5.2.0",
+    "util": "latest",
+    "express": "latest",
+    "axios": "latest",
+    "file_size_url": "latest",
+    "fs-extra": "latest",
+    "path": "latest",
+    "node-fetch": "latest",
+    "megajs": "latest",
+    "vm": "latest",
+    "qrcode-terminal": "latest",
+    "yt-search":"latest",
+    "api-dylux":"latest",
+    "ytdl-core":"4.11.5"
+  }
+}
