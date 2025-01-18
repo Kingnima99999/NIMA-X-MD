@@ -18,14 +18,14 @@ const deta = search.videos[0];
 const url = deta.url 
 
 let desc= `
- *🎶RUEANTHA-MD SONG🎶*
+ *🎶NIMA-XMD SONG🎶*
  
 *•*  ℹ️ *title* : *${deta.title}*
 *•*  📃 *description* : ${deta.description}
 *•*  🕘 *time* : ${deta.timestamp}
 *•*  📅 *ago* : ${deta.ago}
 *•*  👓 *views* : ${deta.views}
-> RUEANTHA-MD
+> NIMA-XMD
 `
 
 await conn.sendMessage(from,{image :{ url: deta.thumbnail},caption:desc},{quoted:mek});
@@ -35,8 +35,8 @@ await conn.sendMessage(from,{image :{ url: deta.thumbnail},caption:desc},{quoted
 let link = `https://apitest1-f7dcf17bd59b.herokuapp.com/download/ytmp3?url=${url}`
 let down = link.result.dl_link
 //send audio message 
-await conn.sendMessage(from,{audio:{url:down},mimetype:"audio/mpeg",caption :" > RUEANTHA-MD"},{quoted:mek})
-await conn.sendMessage(from,{document:{url:down},mimetype:"audio/mpeg",fileName:deta.title + ".mp3" ,caption :"> RUEANTHA-MD"},{quoted:mek})
+await conn.sendMessage(from,{audio:{url:down},mimetype:"audio/mpeg",caption :" > NIMA-XMD"},{quoted:mek})
+await conn.sendMessage(from,{document:{url:down},mimetype:"audio/mpeg",fileName:deta.title + ".mp3" ,caption :"> NIMA-XMD"},{quoted:mek})
 
   
 
@@ -64,13 +64,13 @@ const deta = search.videos[0];
 const url = deta.url 
 
 let desc= `
-*📽️RUEANTHA-MD VIDEO📽️*
+*📽️NIMA-XMD VIDEO📽️*
 *•*  ℹ️ *title* : *${deta.title}*
 *•*  📃 *description* : ${deta.description}
 *•*  🕘 *time* : ${deta.timestamp}
 *•*  📅 *ago* : ${deta.ago}
 *•*  👓 *views* : ${deta.views}
-> RUEANTHA-MD
+> NIMA-XMD
 `
 
 await conn.sendMessage(from,{image :{ url: deta.thumbnail},caption:desc},{quoted:mek});
@@ -81,8 +81,8 @@ let link = `https://apitest1-f7dcf17bd59b.herokuapp.com/download/ytmp4?url=${url
 let down = link.result.dl
 
 //send video  message 
-await conn.sendMessage(from,{video:{url:down},mimetype:"video/mp4",caption :"> RUEANTHA-MD"},{quoted:mek})
-await conn.sendMessage(from,{document:{url:down},mimetype:"video/mp4",fileName:deta.title + ".mp4",caption :"> RUEANTHA-MD"},{quoted:mek})
+await conn.sendMessage(from,{video:{url:down},mimetype:"video/mp4",caption :"> NIMA-XMD"},{quoted:mek})
+await conn.sendMessage(from,{document:{url:down},mimetype:"video/mp4",fileName:deta.title + ".mp4",caption :"> NIMA-XMD"},{quoted:mek})
 
   
 
